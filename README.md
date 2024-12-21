@@ -228,3 +228,40 @@ console.log(reversed); // [3, 2, 1]
 console.log(arr); // [1, 2, 3] (original array is unchanged)
 ```
 
+
+## Destructuring
+
+Destructuring in JavaScript is a shorthand syntax for extracting values from arrays or objects and assigning them to variables. It makes it easier to work with complex data structures.
+
+
+**Array Destructuring**
+Array destructuring allows you to unpack values from an array into individual variables.
+
+Syntax:
+```js
+let [variable1, variable2] = array;
+```
+
+
+```js
+Example:
+const arr = [1, 2, 3];
+const [a, b] = arr;
+console.log(a); // 1
+console.log(b); // 2
+```
+
+
+```js
+You can also skip values using commas:
+const arr = [1, 2, 3];
+const [, , c] = arr;
+console.log(c); // 3
+```
+
+```js
+You can use default values too:
+const arr = [1];
+const [a, b = 2] = arr;
+console.log(b); // 2 (default value)
+```
