@@ -21,7 +21,7 @@ console.log(arr); // [1, 2, undefined, 4]
 
 
 
-1. push( )
+1. **push( )**
 
 Adds one or more elements to the end of an array.
 Changes Parent: Yes, it changes the original array.
