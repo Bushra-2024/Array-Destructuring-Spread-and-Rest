@@ -21,7 +21,7 @@ console.log(arr); // [1, 2, undefined, 4]
 
 
 
-1. **push( )**
+1. `push( )`
 
 Adds one or more elements to the end of an array.
 Changes Parent: Yes, it changes the original array.
@@ -36,7 +36,7 @@ console.log(arr); // [1, 2, 3]
 
 
 
-2. pop( )
+2. `pop( )`
 
 Removes the last element from an array.
 Changes Parent: Yes, it changes the original array.
@@ -51,7 +51,7 @@ console.log(arr); // [1, 2]
 
 
 
-3. shift( )
+3. `shift( )`
    
 Removes the first element from an array.
 Changes Parent: Yes, it changes the original array.
@@ -66,7 +66,7 @@ console.log(arr); // [2, 3]
 
 
 
-4. unshift( )
+4. `unshift( )`
 
 Adds one or more elements to the beginning of an array.
 Changes Parent: Yes, it changes the original array.
@@ -81,7 +81,7 @@ console.log(arr); // [1, 2, 3]
 
 
 
-5. concat( )
+5. `concat( )`
 
 Combines two or more arrays or values into a new array.
 Changes Parent: No, it does not change the original array.
@@ -98,7 +98,7 @@ console.log(arr1); // [1, 2] (original array is unchanged)
 
 
 
-6. slice( )
+6. `slice( )`
 
 Creates a shallow copy of a portion of an array into a new array.
 Changes Parent: No, it does not change the original array.
@@ -114,7 +114,7 @@ console.log(arr); // [1, 2, 3] (original array is unchanged)
 
 
 
-7. join( )
+7. `join( )`
 
 Joins all elements of an array into a string.
 Changes Parent: No, it does not change the original array.
@@ -130,7 +130,7 @@ console.log(arr); // [1, 2, 3] (original array is unchanged)
 
 
 
-8. includes( )
+8. `includes( )`
 
 Checks if an array contains a certain element.
 Changes Parent: No, it does not change the original array.
@@ -145,7 +145,7 @@ console.log(arr.includes(4)); // false
 
 
 
-9. indexOf( )
+9. `indexOf( )`
 
 Returns the first index of a specified element in an array.
 Changes Parent: No, it does not change the original array.
@@ -160,7 +160,7 @@ console.log(arr.indexOf(4)); // -1
 
 
 
-10. splice( )
+10. `splice( )`
     
 Description: Changes the contents of an array by removing or replacing elements.
 Changes Parent: Yes, it changes the original array.
@@ -175,7 +175,7 @@ console.log(arr); // [1, 4, 5, 3]
 
 
 
-11. toString( )
+11. `toString( )`
     
 Converts the array to a string, where elements are separated by commas.
 Changes Parent: No, it does not change the original array.
@@ -191,7 +191,7 @@ console.log(arr); // [1, 2, 3] (original array is unchanged)
 
 
 
-12. toReversed( )
+12. `toReversed( )`
     
 Description: Returns a new array with elements in reverse order.
 Changes Parent: No, it does not change the original array.
