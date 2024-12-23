@@ -280,6 +280,8 @@ Is used to expand or spread elements from an iterable (such as an array, string,
 # Rest Parameter (...)
 The rest parameter collects all remaining arguments into an array. It's typically used in function definitions to handle an arbitrary number of arguments.
 
+![image](https://github.com/user-attachments/assets/eb314f94-ec32-422d-9e19-17302bc7ac57)
+
 ```js
 function sum(...theArgs) {
   let total = 0;
