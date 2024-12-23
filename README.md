@@ -282,15 +282,4 @@ The rest parameter collects all remaining arguments into an array. It's typicall
 
 ![image](https://github.com/user-attachments/assets/eb314f94-ec32-422d-9e19-17302bc7ac57)
 
-```js
-function sum(...theArgs) {
-  let total = 0;
-  for (let i = 0; i < theArgs.length; i++) {
-    total += theArgs[i];  
-  }
-  return total;  
-}
-console.log(sum(1, 2, 3));  // Output: 6
-console.log(sum(1, 2, 3, 4));  // Output: 10
 
-```
