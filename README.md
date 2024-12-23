@@ -265,3 +265,31 @@ const arr = [1];
 const [a, b = 2] = arr;
 console.log(b); // 2 (default value)
 ```
+
+
+# Spread Operator (...)
+
+The **spread** operator allows you to unpack or spread out the elements of an array or object. It can be used in function calls, array literals, and object literals.
+
+```js
+Example of Spread in Arrays:
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4, 5]; // Spread elements of arr1 and add more elements
+console.log(arr2); // Output: [1, 2, 3, 4, 5]
+```
+
+# Rest Parameter (...)
+The rest parameter collects all remaining arguments into an array. It's typically used in function definitions to handle an arbitrary number of arguments.
+
+```js
+function sum(...theArgs) {
+  let total = 0;
+  for (let i = 0; i < theArgs.length; i++) {
+    total += theArgs[i];  
+  }
+  return total;  
+}
+console.log(sum(1, 2, 3));  // Output: 6
+console.log(sum(1, 2, 3, 4));  // Output: 10
+
+```
