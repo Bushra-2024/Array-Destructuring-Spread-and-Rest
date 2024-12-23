@@ -269,15 +269,13 @@ console.log(b); // 2 (default value)
 
 # Spread Operator (...)
 
-Spread Operator(`…`): The spread operator(…) is used to expand or spread elements from an iterable (such as an array, string, or object) into individual elements.
+Is used to expand or spread elements from an iterable (such as an array, string, or object) into individual elements.
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*caR9nuGK5SypQRXvU9ubUA.png">
-```js
-Example of Spread in Arrays:
-const arr1 = [1, 2, 3];
-const arr2 = [...arr1, 4, 5]; // Spread elements of arr1 and add more elements
-console.log(arr2); // Output: [1, 2, 3, 4, 5]
-```
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HKKrk4DZv7SzV_twfyPAmg.png">
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*BSWE0w4F9oB0XptO_wz1Og.png">
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*G_AOqX1El5LlBX_bDFMy5g.png">
+
 
 # Rest Parameter (...)
 The rest parameter collects all remaining arguments into an array. It's typically used in function definitions to handle an arbitrary number of arguments.
