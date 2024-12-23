@@ -269,8 +269,9 @@ console.log(b); // 2 (default value)
 
 # Spread Operator (...)
 
-The **spread** operator allows you to unpack or spread out the elements of an array or object. It can be used in function calls, array literals, and object literals.
+Spread Operator(`…`): The spread operator(…) is used to expand or spread elements from an iterable (such as an array, string, or object) into individual elements.
 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*caR9nuGK5SypQRXvU9ubUA.png">
 ```js
 Example of Spread in Arrays:
 const arr1 = [1, 2, 3];
